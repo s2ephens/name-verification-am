@@ -1,0 +1,15 @@
+{
+  "name": "Name Verification Application (Adobe Money)",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Name generator + black-box name verifier (spec-driven).",
+  "type": "module",
+  "scripts": {
+    "generate": "node src/cli.js generate",
+    "verify": "node src/cli.js verify",
+    "test": "node --test"
+  }
+}
+
+
+
